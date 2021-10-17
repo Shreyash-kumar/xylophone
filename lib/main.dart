@@ -13,11 +13,10 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note1.wav');
                   },
                   //height: 100,
@@ -28,56 +27,56 @@ class XylophoneApp extends StatelessWidget {
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note2.wav');
                   },
                   child: Text(''),
-                 // height: 100,
+                  // height: 100,
                   minWidth: 411,
                   color: Colors.deepOrange,
                 ),
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note3.wav');
                   },
                   child: Text(''),
-                 // height: 100,
+                  // height: 100,
                   minWidth: 411,
                   color: Colors.yellow,
                 ),
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note4.wav');
                   },
                   child: Text(''),
-                 // height: 100,
+                  // height: 100,
                   minWidth: 411,
                   color: Colors.green,
                 ),
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note5.wav');
                   },
                   child: Text(''),
-                 // height: 100,
+                  // height: 100,
                   minWidth: 411,
                   color: Colors.blue,
                 ),
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note6.wav');
                   },
                   child: Text(''),
@@ -88,8 +87,8 @@ class XylophoneApp extends StatelessWidget {
               ),
               Expanded(
                 child: FlatButton(
-                  onPressed: (){
-                    final player =  AudioCache();
+                  onPressed: () {
+                    final player = AudioCache();
                     player.play('assets_note7.wav');
                   },
                   child: Text(''),
@@ -98,7 +97,6 @@ class XylophoneApp extends StatelessWidget {
                   color: Colors.purple,
                 ),
               ),
-
             ],
           ),
         ),
